@@ -9,3 +9,6 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    border-radius: 70%;
+}
