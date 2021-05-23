@@ -1,8 +1,17 @@
 .navbar-dark {
-    background-color: #592366;
+    background-image: linear-gradient(#576548, #564865);
+        
 }
+
+
+
+.jumbotron {
+    background-color: blanchedalmond;
+    margin-bottom: 0;
+}
+
 h1, h2, h3 {
-    font-family: 'Reggae One', cursive;
+    font-family: 'Reggae One', cursive;    
 }
 
 body {
@@ -47,12 +56,14 @@ img {
 }
 
 .hero-title {
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 0;
 }
 
 .hero-subtitle {
+    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
@@ -73,4 +84,9 @@ img {
 .hero-button:hover {
     background-color: #564865;
     border: 1px solid white;
+}
+
+.site-footer {
+    background-image: linear-gradient(#576548, #564865);
+    padding: 20px;
 }
