@@ -10,15 +10,123 @@
         <!-- Additional CSS placed after Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&display=swap" />
         <link rel="stylesheet" href="css/obstacleStyles.css" />
 
         <title>Obstacle</title>
     </head>
 
     <body>
-        <header>
-            <h1>Contact Us!</h1>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <img src="img/versusLogo.jpg" class="img-fluid"/><a class="navbar-brand" href="#"></a> 
+                    </div>
+                    <div class="col">
+                      <h1>Versus Obstacle</h1>
+                      <h3>The battle within</h3>                    
+                    </div>             
+                </div>        
+            </div>            
         </header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-nav">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#obstacleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="obstacleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="ObstacleHome.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ObstacleAboutUs.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ObstacleSchedule.html"><i class="fa fa-calendar fa-lg"></i> Schedule</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ObstaclePricing.html"><i class="fa fa-superpowers fa-lg"></i> Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+        <div class="container">
+            <div class="col-sm-4">
+                <h5>Our Address</h5>
+                <address>
+                    1 Obstacle Ct<br />
+                    Kitsap County, WA 98370<br />
+                    U.S.A.
+                </address>
+            </div>
+            <div class="row row-content">
+                <div class="col-6">
+                    <h4>Request More Information</h4>
+                    <hr />
+                </div>
+                <div class="col-md-10">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                            </div>
+                            <div class="col-7">                        
+                                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col offset-md-2">
+                                May we contact you?
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                    <label for="contactYes" class="form-check-label">Yes</label>
+                                </div>                        
+                                <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                <label for="contactNo" class="form-check-label">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label">Questions or Comments?</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+           </div>
+            <div class="row row-content">
+                <div class="col">
+                    <img src="img/Kitsap-County.jpg" alt="picture of Kitsap County" class="img-fluid float-right" height=30% width=30% />
+                </div>
+            </div>
+        </div>
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
@@ -52,7 +160,6 @@
                 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
                 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-
-
+                
     </body>
 </html>

@@ -23,7 +23,7 @@ h2 {
 
 header {
     h2 {
-    color: $color-pale;
+        color: $color-pale;
     }
 }
 
@@ -65,16 +65,16 @@ header {
 }
 
 #reserveModal {
-.modal-header{
-    background-color: $color-teal;
-    color: white;
-         }
+    .modal-header{
+        background-color: $color-teal;
+        color: white;
+    }
 }
 
 #loginModal {
-.modal-header{
-    background-color: $color-mid;
-    color: white;
+    .modal-header{
+        background-color: $color-mid;
+        color: white;
 
-    }
+        }
 }
