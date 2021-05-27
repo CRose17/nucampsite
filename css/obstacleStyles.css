@@ -24,8 +24,14 @@ body {
     background-color: blanchedalmond;
 }
 
-img {
+#versusLogo {
     border-radius: 70%;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
 }
 
 .hero {
@@ -44,7 +50,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/nucampsite/img/obstaclecourse.jpg);
+    background: url(/img/obstaclecourse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
