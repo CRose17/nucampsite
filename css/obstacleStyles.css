@@ -96,6 +96,10 @@ body {
     border: 1px solid white;
 }
 
+.card {
+    background-color: #563865;
+}
+
 .site-footer {
     background-image: linear-gradient(#576548, #564865);
     padding: 20px;
