@@ -22,6 +22,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
+    display: flex;
+    flex-flow: column;
 }
 
 #versusLogo {
@@ -109,5 +111,5 @@ body {
 
 .site-footer {
     background-image: linear-gradient(#576548, #564865);
-    padding: 20px;
+    padding: 20px 0;
 }
