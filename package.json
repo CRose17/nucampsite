@@ -5,7 +5,6 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
-<<<<<<< HEAD
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,15 +15,10 @@
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
-=======
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> f7fef5ad318baaddced992b1f26470d75e83330a
   },
   "author": "Cameron Rosenberger",
   "license": "ISC",
   "devDependencies": {
-<<<<<<< HEAD
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
@@ -38,12 +32,6 @@
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
-=======
-    "lite-server": "^2.6.1"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
->>>>>>> f7fef5ad318baaddced992b1f26470d75e83330a
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
